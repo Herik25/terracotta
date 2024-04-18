@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    color: #000;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.mid-fonts span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-inline: 10px;
+    color: #556f5f;
+    font-size: 18px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Add styles to handle active link if needed */
+.nav-links li a.active {
+    font-weight: bold;
+}

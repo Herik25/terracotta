@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.product-container {
+    padding-top: 200px;
+    padding-inline: 200px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-inline: 10px;
+    color: #fff;
+    animation-name: rotateUpsideDown;
+    animation-duration: 1s;
+}
+
+.hero-name {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-inline: 10px;
+    color: #556f5f;
+    animation-name: rotateUpsideDown;
+    animation-duration: 1.5s;
+}
+
+.hero-desc {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-inline: 10px;
+    color: #888;
+    margin-top: 10px;
+    animation-name: rotateUpsideDown;
+    animation-duration: 2s;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.btn {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    animation-name: rotateUpsideDown;
+    animation-duration: 2.5s;
+}
+
+.shopnow {
+    background-color: #fff;
+    color: #99A187;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.readmore {
+    background-color: #99A187;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateX(-22px);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.gif {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+}
+
+@keyframes rotateUpsideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
